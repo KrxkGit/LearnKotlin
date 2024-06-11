@@ -1,7 +1,24 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import others.Delegate
+import others.UseDelegate
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+//    val cls = MainClass.test()
+//    println(MyEnum.Monday)
+//    Singleton.test()
+//    Singleton.show()
+//
+//    request(object : CallBack {
+//        override fun display() {
+//            println("1")
+//        }
+//    })
+
+//    Delegate().test()
+    UseDelegate().test()
 }
+
+
+
+
+
+
