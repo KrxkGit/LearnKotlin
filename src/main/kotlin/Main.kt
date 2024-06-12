@@ -1,5 +1,4 @@
-import others.Delegate
-import others.UseDelegate
+import useContract.UseContract
 
 fun main() {
 //    val cls = MainClass.test()
@@ -14,7 +13,8 @@ fun main() {
 //    })
 
 //    Delegate().test()
-    UseDelegate().test()
+//    UseDelegate().test()
+    UseContract().test()
 }
 
 
